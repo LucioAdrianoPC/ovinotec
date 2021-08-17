@@ -6341,6 +6341,17 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/bootstrap/scss/bootstrap.scss":
+/*!****************************************************!*\
+  !*** ./node_modules/bootstrap/scss/bootstrap.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./node_modules/jquery/dist/jquery.js":
 /*!********************************************!*\
   !*** ./node_modules/jquery/dist/jquery.js ***!
@@ -37417,13 +37428,14 @@ if (token) {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./node_modules/bootstrap/scss/bootstrap.scss ./resources/sass/app.scss ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\wamp64\www\ovinotec\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\wamp64\www\ovinotec\node_modules\bootstrap\scss\bootstrap.scss */"./node_modules/bootstrap/scss/bootstrap.scss");
 module.exports = __webpack_require__(/*! C:\wamp64\www\ovinotec\resources\sass\app.scss */"./resources/sass/app.scss");
 
 

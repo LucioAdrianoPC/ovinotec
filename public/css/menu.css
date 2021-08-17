@@ -1,0 +1,76 @@
+#imgMenu{
+    width: 40px;
+}
+
+.navMenu{
+    background-color: dimgray;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    left: -250px;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.navMenu ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.navMenu ul li{
+    line-height: 30px;
+    border-bottom: 1px solid;
+    
+}
+
+.navMenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding-left: 5px;
+}
+
+.navMenu ul ul li a{
+   padding-left: 15px;
+   
+}
+.navMenu ul li a:hover{
+    background-color:#370707;
+    transition: 0.5s;
+}
+
+.navMenu ul ul {
+    display: none;
+    transition: 0.5s;
+}
+.navMenu ul .itensAnimais.mostra{
+    display: block;
+    transition: 0.5s;
+}
+
+.navMenu.mostra{
+    left: 0px;
+    transition: 0.5s;
+}
+
+#abreMenu{
+    margin: 5px;
+    cursor: pointer;
+} 
+
+.img-fundo{
+    width: 500px;
+    opacity: 0.3;
+}
+
+#fundo{
+    background-image: url("../img/logo_site.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80%;
+    position: absolute;
+    
+    
+}
